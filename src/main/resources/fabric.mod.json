@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "cosmetic-wings",
+  "version": "${version}",
+  "name": "Cosmetic Wings",
+  "description": "Cosmetic angel and demon wings, halo, horns and particles.",
+  "authors": ["Omne Trix"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.wingsmod.CosmeticWingsMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "1.21.10",
+    "fabric-api": "*"
+  }
+}
